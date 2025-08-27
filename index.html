@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Pagina con sfondo e testo centrato</title>
 
-  <!-- FONT MEDIEVALE da Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <!-- FONT MEDIEVALE -->
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 
   <style>
     body {
@@ -18,27 +17,25 @@
       align-items: center;
       text-align: center;
 
-      /* IMMAGINE COME SFONDO A PIENO SCHERMO */
       background: url("pergamena.jpg") no-repeat center center fixed;
       background-size: cover;
     }
 
-    h1 {
-      font-size: 3em;              /* testo grande */
-      line-height: 1.5;
-      color: black;                /* scritta nera */
-      font-family: 'UnifrakturCook', cursive; /* font medievale */
+    .poem {
+      font-family: 'MedievalSharp', cursive;  /* font medievale */
+      font-size: 2.5em;                       /* grandezza */
+      line-height: 1.6;                       /* spazio tra righe */
+      color: black;                           /* colore */
       max-width: 80%;
-      margin: 0;
     }
   </style>
 </head>
 <body>
-  <h1>
+  <div class="poem">
     In London lies a knight a Pope interred<br>
     His labor's fruit a Holy wrath incurred<br>
     You seek the orb that ought be on his tomb<br>
     It speaks of Rosy flesh and seeded womb.
-  </h1>
+  </div>
 </body>
 </html>
