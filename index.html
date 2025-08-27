@@ -1,46 +1,39 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Pagina con sfondo e testo centrato</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
+      height: 100vh;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      justify-content: flex-start;
-      min-height: 100vh;
-      background: #f4f4f9;
-    }
-
-    h1 {
-      margin-top: 30px;
-      font-size: 2.5em;
-      color: #333;
+      background: url("pergamena.jpg") no-repeat center center;
+      background-size: cover;
+      font-family: Georgia, serif;
       text-align: center;
     }
 
-    img {
-      margin-top: 20px;
-      max-width: 80%;
-      height: auto;
+    h1 {
+      color: white;
+      font-size: 2em;
+      line-height: 1.5;
+      background: rgba(0,0,0,0.5); /* leggero sfondo per leggibilità */
+      padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      max-width: 80%;
     }
   </style>
 </head>
 <body>
-  <!-- QUI puoi modificare la scritta -->
-  <h1>In London lies a knight a Pope interred
-    His labor's fruit a Holy wrath incurred
-    You seek the orb that ought be on his tomb
+  <h1>
+    In London lies a knight a Pope interred<br>
+    His labor's fruit a Holy wrath incurred<br>
+    You seek the orb that ought be on his tomb<br>
     It speaks of Rosy flesh and seeded womb.
   </h1>
-
-  <!-- QUI inserisci la foto -->
-  <img src="pergamena.jpg" alt="Foto caricata">
-
 </body>
 </html>
