@@ -8,21 +8,24 @@
       margin: 0;
       padding: 0;
       height: 100vh;
+      width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: url("pergamena.jpg") no-repeat center center;
-      background-size: cover;
       font-family: Georgia, serif;
       text-align: center;
+      color: white;
+
+      /* IMMAGINE COME SFONDO A PIENO SCHERMO */
+      background: url("pergamena.jpg") no-repeat center center fixed;
+      background-size: cover;
     }
 
     h1 {
-      color: white;
       font-size: 2em;
       line-height: 1.5;
-      background: rgba(0,0,0,0.5); /* leggero sfondo per leggibilità */
-      padding: 20px;
+      background: rgba(0,0,0,0.6); /* riquadro nero trasparente */
+      padding: 20px 40px;
       border-radius: 10px;
       max-width: 80%;
     }
